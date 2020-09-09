@@ -1,0 +1,33 @@
+<view class="header">
+    <text class="head_txt">寝室信息</text>
+    <view class="tips">
+        <text class="num">寝室号：{{Dorm_num}}</text>
+        <text class="people">人数：{{People_num}} 人</text>
+    </view>
+</view>
+
+<view class="score">
+    <text class="zong_fen">总分</text>
+    <text class="score_num">{{score_num}}</text>
+</view>
+
+
+<view class="score_btn">
+    <view class="btn" bindtap="score" bindlongpress="score_reset" wx:for="{{score}}" wx:key="key" data-index="{{index}}" data-reset="{{item.tip}}">
+        <text class="tip">{{item.tip}}</text>
+        <text class="score_note">（{{item.score}}分）</text>
+    </view>
+</view>
+
+<view class="banned" style="display:{{banned_style}}">
+</view>
+
+<view class="banner_input_total"  style="display:{{banned_style}}">
+    <view class="banned_input">
+        <input type="text" class="banned_input_rect" placeholder="请录入违章电器" bindinput="banned_input_rect"></input>
+    </view>
+    <view class="comp" bind:tap="comp_sub"><text class="comp_txt">OK</text></view>
+</view>
+
+<button class="subm" bindtap="subm">提交</button>
+<button class="search" bindtap="search">查询已打成绩</button>

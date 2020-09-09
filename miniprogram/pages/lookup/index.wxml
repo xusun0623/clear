@@ -1,0 +1,27 @@
+
+<form action="" bindsubmit="formSubmit">
+    <text class="solgan">卫生成绩查询</text>
+    <input type="number" name="stu_num" class="lookup" placeholder="请输入你的学号" placeholder-class="place-holder"></input>
+    <button form-type="submit" class="submit">
+    <view class="submit_img">
+        <image class="img" src="/images/search.svg"></image>
+    </view>
+    </button>
+    <text class="ps">*输入完成后请先退出软键盘,再点击查找按钮</text>
+</form>
+
+<view class="total" style="display:{{style}}">
+    <view class="white_back"></view>
+    <view class="tips">
+        <view class="infor">
+            <text class="STU_NUM">学号：{{STU_NUM}}</text>
+            <text class="score">本周卫生成绩：{{score}}</text>
+        </view>
+        <view class="tip" wx:for="{{tips}}" wx:for-item="tip" wx:key="key">
+            {{tip.minus}} <text class="total_score"> {{tip.total_score}}</text><text class="tip_score">{{tip.score}}</text>
+        </view>
+            <view class="tip">
+            <text class="total_score" bind:tap="score_question">如有疑问，点我查看详情。</text>
+        </view>
+    </view>
+</view>

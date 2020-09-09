@@ -1,0 +1,4 @@
+<view class="total">
+    <view class="buding" wx:for="{{buding}}" wx:key="key" bindtap="buding" data-index="{{index}}" >{{item}}</view>
+    <view class="buding start" bindtap="buding_start">开始</view>
+</view>

@@ -1,0 +1,11 @@
+<view class="intro">
+    <view class="intro_title">你好</view>
+    <view class="intro_little">这是一篇可以解答你有关卫生检查诸多疑问的文章。</view>
+</view>
+
+<view class="introduction" style="display:{{intro_dis}}">
+    <view class="question" wx:for="{{question}}" wx:key="key">
+        <view class="question_title">{{item.question}}</view>
+        <view class="question_answer">{{item.answer}}</view>
+    </view>
+</view>

@@ -1,0 +1,22 @@
+<view class="head_txt">
+  <text class="hello">Hello</text>
+  <text class="solgan">明窗净几，不知凡几</text>
+</view>
+<view class="white_back"></view>
+
+<view class="btns">
+  <view class="btn" bindtap="lookup">
+    <text class="btn_txt">查询卫生成绩</text>
+    <image class="btn_img" src="/images/search.svg"></image>
+  </view>
+
+  <view class="btn" bindtap="consist">
+    <text class="btn_txt">成绩是怎样构成的？</text>
+    <image class="btn_img" src="/images/question.svg"></image>
+  </view>
+
+  <view class="btn" bindtap="start">
+    <text class="btn_txt">检查卫生</text>
+    <image class="btn_img" src="/images/right_arrow.svg"></image>
+  </view>
+</view>

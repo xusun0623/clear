@@ -1,0 +1,58 @@
+page {
+    background-color: #f4fbfb;
+}
+
+.img {
+    width: 600rpx;
+    height: 600rpx;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.placehold {}
+
+.total {
+    width: 80%;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit_img {
+    width: 50rpx;
+    height: 50rpx;
+    margin: 0 !important;
+    padding: 25rpx !important;
+}
+
+.form_submit {
+    margin-left: 50rpx;
+    width: 100rpx;
+    height: 100rpx;
+    background-color: #98ccc0;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.form_submit:active {
+    background-color: #678f85;
+}
+
+.SG_input {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 24rpx 40rpx;
+    border-radius: 100rpx;
+}
+
+.form_submit image {
+    padding: 0;
+    margin: 0;
+}

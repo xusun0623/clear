@@ -1,0 +1,27 @@
+<view class="total" style="display:{{display}}">
+    <view class="scored">
+        <text class="scored_txt">{{finished_txt}}</text>
+        <view class="ddorm finished" wx:for="{{finished}}" wx:key="key" data-index="{{item}}" bindtap="choose_dorm">{{item}}</view>
+    </view>
+    <view class="scored unopen">
+        <text class="scored_txt">未开门:</text>
+        <view class="ddorm finished" wx:for="{{unopen}}" wx:key="key" data-index="{{item}}" bindtap="choose_dorm"  bind:longpress="unopen">{{item}}</view>
+    </view>
+    <view class="scored unopen">
+        <text class="scored_txt">请求稍后检查:</text>
+        <view class="ddorm finished" wx:for="{{later_request}}" wx:key="key" data-index="{{item}}" bindtap="choose_dorm"  bind:longpress="later_request">{{item}}</view>
+    </view>
+    <view class="dorm" wx:for="{{dorm}}" wx:key="key" wx:for-index="dorm_index" wx:for-item="dorm_item">
+        <view class="title">{{dorm_item.order}}</view>
+        <view class="ddorm" wx:for="{{dorm_item.dorm}}" wx:key="key" data-index="{{item}}" bindtap="choose_dorm"  bind:longpress="longpress">
+            {{item}}
+        </view>
+    </view>
+    <view class="scored unopen">
+        <text class="scored_txt">拒查:</text>
+        <view class="ddorm finished" wx:for="{{refuse}}" wx:key="key" data-index="{{item}}" bindtap="choose_dorm"  bind:longpress="refuse">{{item}}</view>
+    </view>
+    <view class="complete">
+        <text class="comp" bind:tap="comp">完成卫生检查</text>
+    </view>
+</view>

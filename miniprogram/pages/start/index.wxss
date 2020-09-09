@@ -1,0 +1,80 @@
+page {
+    background-color: #2b7ae8;
+}
+
+button {
+    border: 1px #8b8b8b solid;
+    position: absolute;
+    bottom: 100rpx;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30rpx 25rpx;
+}
+
+.line {
+    width: 700rpx;
+    height: 2rpx;
+    background: #aaa;
+    margin: 50rpx 0;
+}
+
+.buding {
+    width: 160rpx;
+    height: 258rpx;
+    background-color: #fff;
+    font-weight: 900;
+    border-radius: 10rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2b7ae8;
+    margin-top: 20rpx;
+    transition: 0.3s;
+    border: 5rpx #fff solid;
+}
+
+.buding:hover {
+    background-color: #2b7ae8;
+    color: #fff;
+    /* border: 5rpx #fff solid; */
+}
+
+.start {
+    background-color: #2b7ae8;
+    color: #fff;
+    border: 5rpx #2b7ae8 solid;
+    transition: 0.3s;
+    font-weight: 900;
+    box-shadow: #0f4685 4rpx 4rpx 20rpx;
+}
+
+.start:hover {
+    border: 5rpx #ffffff solid;
+    background-color: #1d57a9;
+    font-weight: 900;
+}
+
+.start:active {
+    background-color: #225b9c;
+}
+
+.head {
+    font-size: 100rpx;
+    font-weight: 800;
+    align-self: flex-start;
+    margin-left: 25rpx;
+    margin-bottom: 20rpx;
+}
+
+.wel {
+    font-size: 40rpx;
+    align-self: flex-start;
+    margin-left: 25rpx;
+    color: #2d609b;
+}

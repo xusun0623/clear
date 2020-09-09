@@ -1,0 +1,81 @@
+page {
+    background-color: #2b7ae8;
+}
+
+.white_back {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f4fafa;
+}
+
+.head_txt {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30rpx;
+}
+
+.hello {
+    font-weight: 900;
+    font-size: 80rpx;
+    letter-spacing: 10rpx;
+    margin: 20rpx 0;
+}
+
+.solgan {
+    font-weight: 200;
+    letter-spacing: 5rpx;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.btn {
+    display: flex;
+    color: #2b7ae8;
+    height: 120rpx;
+    border-radius: 60rpx;
+    background-color: #fff;
+    margin: 30rpx 0;
+    align-items: center;
+    padding-left: 50rpx;
+    box-shadow: #eeeeee 5rpx 5rpx 25rpx;
+}
+
+.btn_txt {
+    font-size: 35rpx;
+    letter-spacing: 4rpx;
+}
+
+.btn_img {
+    width: 50rpx;
+    height: 50rpx;
+    background-color: #d9eafe;
+    padding: 20rpx;
+    border-radius: 50%;
+    margin-left: 30rpx;
+}
+
+.btn:nth-child(1) {
+    width: 365rpx;
+}
+
+.btn:nth-child(2) {
+    width: 480rpx;
+}
+
+.btn:nth-child(3) {
+    width: 288rpx;
+}

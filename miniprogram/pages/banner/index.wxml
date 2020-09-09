@@ -1,0 +1,5 @@
+<image class="img" src="/images/banner.jpg"></image>
+<view class="total">
+    <input type="text" placeholder="请输入SG码" class="SG_input" name="SG_input"  bindinput="inputvalue"></input>
+    <view class="form_submit" bindtap="SG_submit"><image class="submit_img"  src="/images/right_arrow_white.svg"></image></view>
+</view>

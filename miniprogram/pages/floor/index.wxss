@@ -1,0 +1,95 @@
+page {
+    background-color: #2b7ae8;
+}
+
+.total {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 35rpx;
+}
+
+.scored {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 20rpx 40rpx;
+    border-radius: 15rpx;
+    background-color: #fff;
+    margin-top: 35rpx;
+}
+
+.dorm {
+    width: 85%;
+    padding: 20rpx 40rpx;
+    margin-top: 35rpx;
+    box-sizing: border-box;
+    border-radius: 15rpx;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scored_txt {
+    font-size: 35rpx;
+    font-weight: 900;
+    width: 100%;
+    color: #2b7ae8;
+    margin-bottom: 35rpx;
+}
+
+.title {
+    font-size: 35rpx;
+    width: 100%;
+    color: #2b7ae8;
+    font-weight: 900;
+    margin-bottom: 35rpx;
+}
+
+.finished {
+    background-color: #d2e3f8;
+    color: #2b7ae8 !important;
+    font-size: 28rpx;
+    margin-top: 10rpx;
+}
+
+.ddorm {
+    padding: 10rpx 15rpx;
+    border-radius: 50rpx;
+    font-size: 28rpx;
+    margin-top: 10rpx;
+    color: #2b7ae8;
+    background-color: #d2e3f8;
+    margin: 7.5rpx 7.5rpx;
+    transition: 0.2s;
+}
+
+.ddorm:active {
+    background-color: #bed1e9;
+}
+
+.cc {
+    background-color: #d2f7cf;
+}
+
+.unopen {}
+
+.complete {
+    margin: 80rpx 0;
+}
+
+.comp {
+    width: 50%;
+    height: 70rpx;
+    background-color: #fff;
+    color: #2b7ae8;
+    border-radius: 50rpx;
+    padding: 10rpx 50rpx;
+    font-weight: 900;
+}
+
+.comp:active {
+    background-color: #cdcdcd;
+}

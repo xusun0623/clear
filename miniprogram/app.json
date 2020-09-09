@@ -1,0 +1,20 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/intro/index",
+        "pages/floor/index",
+        "pages/begin/index",
+        "pages/start/index",
+        "pages/banner/index",
+        "pages/lookup/index"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2b7ae8",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "white"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

@@ -1,0 +1,128 @@
+/* pages/lookup/index.wxss */
+
+page {
+    background-color: #2b7ae8;
+}
+
+.white_back {
+    background-color: #f5fbfb;
+    width: 750rpx;
+    height: 2290rpx;
+    position: absolute;
+    top: 30%;
+    z-index: 0;
+}
+
+.solgan {
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-weight: 900;
+    font-size: 65rpx;
+    letter-spacing: 10rpx;
+}
+
+.lookup {
+    background-color: #ffffff;
+    width: 600rpx;
+    height: 95rpx;
+    border-radius: 50rpx;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    padding-left: 40rpx;
+    font-size: 30rpx;
+}
+
+.img {
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.submit {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+    transform: translateY(-50%);
+    width: 95rpx !important;
+    height: 95rpx !important;
+    background-color: #d2e3f8;
+    border-radius: 50rpx;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.ps {
+    position: absolute;
+    top: 21.5%;
+    left: 75rpx;
+    color: #cfe2f7;
+    font-size: 24rpx;
+    letter-spacing: 3rpx;
+}
+
+.submit:hover {
+    background-color: #2b7ae8;
+}
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    align-items: center;
+}
+
+.tip {
+    font-weight: 900;
+    color: #237de4;
+}
+
+.infor {
+    width: 80%;
+    height: 200rpx;
+    background-color: #d2e3f8;
+    border-radius: 40rpx 40rpx 0 0;
+    padding-left: 50rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.STU_NUM,
+.score {
+    margin: 10rpx 0;
+    font-weight: 900;
+    color: #237de4;
+    font-size: 30rpx;
+}
+
+.tip {
+    width: 80%;
+    /* padding: ; */
+    height: 100rpx;
+    background-color: #f3f7fd;
+    line-height: 100rpx;
+    padding: 0 27rpx;
+    font-size: 30rpx;
+}
+
+.tip:nth-child(2n) {
+    background-color: #e7f0fc;
+}
+
+.total_score {
+    color: #85bcff;
+    font-size: 23rpx;
+}
+
+.tip_score {
+    margin-left: 50rpx;
+    color: #2b7ae8;
+    font-weight: 900;
+}
